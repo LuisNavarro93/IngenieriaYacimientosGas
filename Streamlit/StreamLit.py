@@ -4,15 +4,15 @@ import numpy as np
 
 st.title("Simulador de Gas")
 st.write("""
-## Variables de entrada
+# Perfiles
 """)
 
 Imax = st.sidebar.slider("Imax",0,100)
 Re = st.sidebar.slider("Re",0,100)
-Re = st.sidebar.slider("Re",0,1000)
-Rw = st.sidebar.slider("Re",0,1000)
-dz = st.sidebar.slider("Re",0,1000)
-Dt = st.sidebar.slider("Re",0,1000)
-Perm = st.sidebar.slider("Re",0,1000)
-Vis = st.sidebar.slider("Re",0,1000)
+Rw = st.sidebar.slider("Rw",0,1000)
+dz = st.sidebar.slider("dz",0,1000)
+Dt = st.sidebar.slider("Dt",0,1000)
+Perm = st.sidebar.slider("K",0,1000)
+Vis = st.sidebar.slider("Mu",0,1000)
+
 
