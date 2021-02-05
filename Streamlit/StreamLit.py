@@ -7,12 +7,12 @@ st.write("""
 ## Variables de entrada
 """)
 
-st.sidebar("Variables de entrada")
 Imax = st.sidebar.slider("Imax",0,100)
-Re = 3280.08     #ft
-Rw = 0.401      #ft
-dz = 23         #ft 
-Dt = 1          #sec
-Perm = 1        #mD        
-Vis = 0.0216  
+Re = st.sidebar.slider("Re",0,100)
+Re = st.sidebar.slider("Re",0,1000)
+Rw = st.sidebar.slider("Re",0,1000)
+dz = st.sidebar.slider("Re",0,1000)
+Dt = st.sidebar.slider("Re",0,1000)
+Perm = st.sidebar.slider("Re",0,1000)
+Vis = st.sidebar.slider("Re",0,1000)
 
