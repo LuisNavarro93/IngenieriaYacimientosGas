@@ -7,6 +7,7 @@ st.write("""
 ## Variables de entrada
 """)
 
+st.sidebar("Variables de entrada")
 Imax = st.sidebar.slider("Imax",0,100)
 Re = 3280.08     #ft
 Rw = 0.401      #ft
